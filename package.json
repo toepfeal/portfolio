@@ -14,7 +14,7 @@
     "test-server": "webpack-dev-server --hot --progress --port 9001 --config ./config/webpack.test.js",
     "start": "run-p dev-server test-server",
     "prepublish": "npm run build",
-    "postinstall": "npm run build"
+    "postinstall": "npm install && npm run build"
   },
   "keywords": [
     "pdf"
