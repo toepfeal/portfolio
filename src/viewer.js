@@ -16,7 +16,7 @@
 
 'use strict';
 
-var DEFAULT_URL = __PROD__ ? '' : 'example.pdf';
+var DEFAULT_URL = __PROD__ ? '' : 'portfolio.pdf';
 
   var pdfjsWebLibs = {
     pdfjsWebPDFJS: window.pdfjsDistBuildPdf
